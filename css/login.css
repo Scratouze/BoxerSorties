@@ -1,0 +1,163 @@
+html {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	height: 100%;
+	color: #999;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background-image: url("../img/fond.jpg");
+	background-size: cover;
+	background-position: center;
+	min-height: 100%;
+}
+
+header {
+	padding: 20px 0 0 50px;
+}
+
+header #brand img {
+	height: 45px;
+}
+
+footer {
+	background-color: rgba(0,0,0,.7);
+	padding: 30px;
+	margin-top: 100px;
+}
+
+footer p {
+	margin-top: 0;
+}
+
+footer a {
+	font-size: 0.7em;
+	color: #999;
+	text-decoration: none;
+	margin-right: 50px;
+}
+#monselect-modele{
+	width: 94%;
+	font-size: 25px;
+	padding: 10px;
+	margin-bottom: 15px;
+	color: #444444;
+}
+footer a:hover {
+	text-decoration: underline;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+section {
+	flex-grow: 1;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0 0 30px 0;
+}
+
+
+input {
+	padding: 15px;
+	width: 100%;
+	font-size: 1em;
+	color: white;
+	border-bottom: solid white 2px;
+	background-color: #2B2E33;
+	margin-bottom: 15px;
+	border-top: hidden;
+	border-left: hidden;
+	border-right: hidden;
+}
+
+::placeholder{
+	color: white;
+}
+
+button {
+	background-color: white;
+	color: black;
+	padding: 15px;
+	width: 100%;
+	font-size: 1em;
+	font-weight: bold;
+	border-radius: 5px;
+	border: 0;
+	cursor: pointer;
+}
+
+#remind-me {
+	color: white;
+	margin-top: 10px;
+	font-size: 0.9em;
+	width: auto;
+	margin-right: 15px;
+}
+
+#login-body {
+	max-width: 450px;
+	background-color: #2B2E33;
+	color: white;
+	padding: 50px;
+	margin: 200px auto;
+}
+
+#register-body {
+	max-width: 450px;
+	background-color: #2B2E33;
+	color: white;
+	padding: 50px;
+	margin: 100px auto;
+}
+
+.grey {
+	color: white;
+}
+
+.error {
+	background-color: red;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+@media all and (max-width: 1030px) {
+	.container { width: 800px; }
+}
+
+@media all and (max-width: 830px) {
+	.container { width: 580px; }
+	header { text-align: center; padding-left: 20px; }
+}
+
+header{
+	background-color: #3c6084;
+}
+#burger{
+	display: none;
+}
+nav{
+	padding: 5px 5px 0 0;
+	height: 25px;
+}
